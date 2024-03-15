@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Mariele.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button"> Mariele's Gourmet Catering</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="frog" src="friedfrog.jpg" alt="Fried Frog" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Le Catering</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="f2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Mariele's Gourmet Catering</h1><br>
+      <h5 class="w3-center">Best Japanesse foods since 2000</h5>
+      <p class="w3-large">Mariele's Gourmet Catering brings a fusion of culinary excellence and personalized service to your special events. From intimate gatherings to grand celebrations, indulge in meticulously crafted menus showcasing the finest ingredients, expertly curated by our talented chefs. Elevate your dining experience with Mariele's, where every bite is an exquisite journey through flavors and sophistication."<span class="w3-tag w3-light-grey">Seasonal</span> Selections:</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Seasonal Selections:
+        Mariele's Gourmet Catering is your trusted partner in creating unforgettable culinary experiences. With a dedication to quality ingredients and innovative recipes, our team of skilled chefs meticulously prepares each dish to perfection. Whether it's a wedding, corporate event, or private party, we strive to exceed your expectations with our delectable offerings and attention to detail. Indulge in a feast for the senses with Mariele's Gourmet Catering."
+
+
+      </p>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Best Sellers</h1><br>
+      <h4>Salmon Sashimi</h4>
+      <p class="w3-text-grey">Fresh slices of premium salmon served raw as sashimi, beautifully arranged on a bed of ice. The salmon is buttery and tender, offering a delicate flavor that melts in your mouth. Served with soy sauce and wasabi. = Php 1500.00 per serving</p><br>
+
+      <h4>Beef Teriyaki Donburi</h4>
+      <p class="w3-text-grey">Fresh slices of premium salmon served raw as sashimi, beautifully arranged on a bed of ice. The salmon is buttery and tender, offering a delicate flavor that melts in your mouth. Served with soy sauce and wasabi. = Php 800.00 per serving</p><br>
+
+      <h4>Ramen Bowl</h4>
+      <p class="w3-text-grey">A hearty bowl of ramen noodles served in a savory broth, topped with slices of tender chashu pork, marinated soft-boiled egg, bamboo shoots, green onions, and seaweed. A comforting and satisfying meal. = Php 1800.00 per serving</p><br>
+
+      <h4>Chicken Teriyaki Bento Box</h4>
+      <p class="w3-text-grey">Grilled chicken glazed with sweet and savory teriyaki sauce, served with steamed rice, mixed vegetables, and a side of miso soup. The bento box offers a balanced and flavorful meal with a variety of tastes and textures. = Php 900.00 per serving</p><br>
+
+      <h4>Sushi Platter</h4>
+      <p class="w3-text-grey">A selection of fresh sushi rolls and nigiri, featuring a variety of seafood such as tuna, salmon, shrimp, and eel, delicately prepared with vinegared rice and seaweed. Served with soy sauce, wasabi, and pickled ginger. = Php 550.00 per serving</p>    
+    </div>
+
+    <div class="w3-col l6 w3-padding-large">
+      <img src="f1.jpeg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>Located in the heart of Lapasan CDO, Mariele's Gourmet Catering invites you to savor exquisite flavors in an elegant setting. Our culinary haven at Lapasan offers a refined ambiance where every detail is meticulously curated to enhance your dining experience. Join us at our culinary sanctuary and let us transport you to a world of gourmet delights, where every bite tells a story of passion and dedication</p>
+    <p class="w3-text-blue-grey w3-large"><b>Contact us at Catering Service, Lapasan,CDO, Philippines.</b></p>
+    <p>You can also reach us by phone at 123-2313 or email us itsmariele@catering.com.
+       Let us elevate your event with our exceptional cuisine.
+    </p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
